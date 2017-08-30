@@ -1,3 +1,14 @@
 .container.board {
   margin-top: 80px;
 }
+body {
+  position: relative;
+}
+.icon {
+  margin: 20px auto;
+  height: 50px;
+}
+.works .card-img-top {
+  height: 300px;
+  overflow: hidden;
+}
