@@ -35,3 +35,11 @@
   opacity : 0.4;
   z-index: -1;
 }
+.email {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+.text-black {
+  color: black;
+}
