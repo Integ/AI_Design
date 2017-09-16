@@ -28,7 +28,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url('http://integ.b0.upaiyun.com/ai/slide2.jpg');
+  background-image: url('http://aidesign.b0.upaiyun.com/slide2.jpg');
   width: 100%;
   background-size: cover;
   height: 100%;
@@ -42,4 +42,8 @@
 }
 .text-black {
   color: black;
+}
+a.card {
+  color: black;
+  text-decoration: none;
 }
