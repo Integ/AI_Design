@@ -14,3 +14,36 @@
 .bd-footer-links li + li {
   margin-left: 1rem;
 }
+.card {
+  padding: 10px;
+  border: none;
+}
+.jumbotron {
+  position: relative;
+  background-color: rgba(255,255,255,0.1);
+}
+.jumbotron:after {
+  content : "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('http://aidesign.b0.upaiyun.com/slide2.jpg');
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+  opacity : 0.4;
+  z-index: -1;
+}
+.email {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+.text-black {
+  color: black;
+}
+a.card {
+  color: black;
+  text-decoration: none;
+}
