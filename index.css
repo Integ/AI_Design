@@ -36,3 +36,18 @@ a.card {
 a.card:hover {
   text-decoration: none;
 }
+@media (min-width: 700px) {
+  .logo {
+    width: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .logo {
+    width: 130px;
+  }
+  .nav-link {
+    padding: 2px 4px;
+    font-size: 13px;
+    font-weight: normal;
+  }
+}
